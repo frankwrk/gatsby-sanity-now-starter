@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "global-require": "off",
+    "guard-for-in": "off",
+    "no-await-in-loop": "off",
+    "no-console": "off",
+    "no-control-regex": "off",
+    "no-restricted-syntax": "off",
+    "import/no-dynamic-require": "off",
+    "import/no-extraneous-dependencies": "off"
+  }
+}

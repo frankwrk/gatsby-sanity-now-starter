@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "version": "0.0.0-unversioned",
+  "name": "api",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "test": "echo Test task disabled for api",
+    "validate": "yarn lint && yarn test",
+    "dev": "echo Start task disabled for api",
+    "build": "echo Build task disabled for api"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}

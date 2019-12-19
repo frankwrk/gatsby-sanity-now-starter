@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "workspaces": [
+    "studio",
+    "web",
+    "api"
+  ],
+  "scripts": {
+    "postinstall": "node ./setup",
+    "validate": "yarn workspaces run validate",
+    "studio": "yarn workspace studio",
+    "web": "yarn workspace web",
+    "api": "yarn workspace api",
+    "start": "concurrently \"now dev\" \"yarn studio sanity start\"",
+    "deploy": "now"
+  },
+  "devDependencies": {
+    "@kevinwolf/eslint-config": "^0.2.4",
+    "chalk": "^3.0.0",
+    "change-case": "^4.1.1",
+    "concurrently": "^5.0.2",
+    "configstore": "^5.0.0",
+    "doctoc": "^1.4.0",
+    "husky": "^4.0.9",
+    "lint-staged": "^9.5.0",
+    "now": "^16.7.3",
+    "ora": "^4.0.3",
+    "rimraf": "^3.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && yarn workspaces run lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.md": [
+      "doctoc",
+      "prettier --write",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}

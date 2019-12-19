@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": [
+      "error",
+      {
+        "ignore": ["part:"]
+      }
+    ]
+  }
+}

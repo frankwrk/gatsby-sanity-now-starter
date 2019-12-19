@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "name": "gatsby-sanity-now-starter",
+  "build": {
+    "env": {
+      "SANITY_PROJECT_ID": "@gatsby-sanity-now-starter-sanity-project-id",
+      "SANITY_DATASET": "@gatsby-sanity-now-starter-sanity-dataset",
+      "SANITY_TOKEN": "@gatsby-sanity-now-starter-sanity-token"
+    }
+  },
+  "builds": [
+    { "src": "studio/package.json", "use": "@now/static-build" },
+    { "src": "web/package.json", "use": "@now/static-build" },
+    { "src": "api/**/*.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "^/studio/static/(.*)", "dest": "/studio/static/$1" },
+    { "src": "^/studio/(.*)", "dest": "/studio/index.html" },
+    { "src": "^/api/(.*)", "dest": "/api/$1" },
+    { "src": "^/(.*)", "dest": "/web/$1" }
+  ]
+}

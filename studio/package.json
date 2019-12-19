@@ -1,0 +1,45 @@
+{
+  "private": true,
+  "version": "0.0.0-unversioned",
+  "name": "studio",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "test": "sanity check",
+    "validate": "yarn lint && yarn test",
+    "now-dev": "http-server -s -p $PORT",
+    "now-build": "sanity build",
+    "deploy:graphql": "sanity graphql deploy --no-playground"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.27",
+    "@mdx-js/react": "^1.5.3",
+    "@sanity/base": "^0.147.8",
+    "@sanity/components": "^0.147.9",
+    "@sanity/core": "^0.147.9",
+    "@sanity/dashboard": "^0.147.8",
+    "@sanity/default-layout": "^0.147.9",
+    "@sanity/default-login": "^0.147.0",
+    "@sanity/desk-tool": "^0.146.3",
+    "@sanity/form-builder": "^0.147.6",
+    "@sanity/vision": "^0.147.9",
+    "prop-types": "^15.6",
+    "react": "^16.2",
+    "react-dom": "^16.2",
+    "react-icons": "^3.8.0",
+    "theme-ui": "^0.2.52",
+    "web": "0.0.0-unversioned"
+  },
+  "devDependencies": {
+    "@sanity/cli": "^0.147.8",
+    "http-server": "^0.12.1"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}
