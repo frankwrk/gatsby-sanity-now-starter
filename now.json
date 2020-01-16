@@ -18,5 +18,8 @@
     { "src": "^/studio/(.*)", "dest": "/studio/index.html" },
     { "src": "^/api/(.*)", "dest": "/api/$1" },
     { "src": "^/(.*)", "dest": "/web/$1" }
-  ]
+  ],
+  "github": {
+    "autoJobCancelation": true
+  }
 }
