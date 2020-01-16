@@ -3,7 +3,9 @@
 [![Tweet!](https://img.shields.io/twitter/url/https/github.com/iamkevinwolf/gatsby-sanity-now-starter.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20the%20Gatsby%20+%20Sanity%20+%20Now%20Starter.%20Create%20an%20ultrafast%20website%2C%20with%20a%20solid%20CMS%20and%20serve%20it%20through%20a%20rock-solid%20CDN%20via%20ZEIT%20Now.%20https%3A//github.com/iamkevinwolf/gatsby-sanity-now-starter)
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![All Contributors](https://img.shields.io/badge/all_contributors-0-blue.svg?style=flat-square)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <p align="center">
   <img src="./setup/assets/cover.png" alt="Gatsby + Sanity + Now Starter" />
@@ -127,6 +129,23 @@ Since static sites don't tend to be fetching any server to get the content, you 
 11. Click `ADD NEW WEBHOOK`
 
 ## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://kevinwolf.me"><img src="https://avatars2.githubusercontent.com/u/3157426?v=4" width="100px;" alt=""/><br /><sub><b>Kevin Wolf</b></sub></a><br /><a href="https://github.com/iamkevinwolf/gatsby-sanity-now-starter/commits?author=iamkevinwolf" title="Code">💻</a> <a href="#content-iamkevinwolf" title="Content">🖋</a> <a href="https://github.com/iamkevinwolf/gatsby-sanity-now-starter/commits?author=iamkevinwolf" title="Documentation">📖</a> <a href="#example-iamkevinwolf" title="Examples">💡</a> <a href="#eventOrganizing-iamkevinwolf" title="Event Organizing">📋</a> <a href="#ideas-iamkevinwolf" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-iamkevinwolf" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#tutorial-iamkevinwolf" title="Tutorials">✅</a> <a href="#talk-iamkevinwolf" title="Talks">📢</a> <a href="#video-iamkevinwolf" title="Videos">📹</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 ## Contributing
 

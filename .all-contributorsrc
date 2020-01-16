@@ -1,0 +1,33 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "iamkevinwolf",
+      "name": "Kevin Wolf",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3157426?v=4",
+      "profile": "https://kevinwolf.me",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "example",
+        "eventOrganizing",
+        "ideas",
+        "infra",
+        "tutorial",
+        "talk",
+        "video"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "gatsby-sanity-now-starter",
+  "projectOwner": "iamkevinwolf",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
