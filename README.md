@@ -28,7 +28,7 @@ Create a static web application, consume data from one of the most powerful head
   - [1. Create a new Gatsby project and use this repo URL as the template](#1-create-a-new-gatsby-project-and-use-this-repo-url-as-the-template)
   - [2. Move into the project directory](#2-move-into-the-project-directory)
   - [3. Start the web server for both Gatsby site and Sanity Studio](#3-start-the-web-server-for-both-gatsby-site-and-sanity-studio)
-  - [4. Play around with the studio](#4-play-around-with-the-studio)
+  - [4. Play around with the Studio](#4-play-around-with-the-studio)
   - [5. Deploy your site](#5-deploy-your-site)
   - [6. Add your production site as a trusted origin to Sanity](#6-add-your-production-site-as-a-trusted-origin-to-sanity)
   - [7. Create a deployment hook to re-deploy the site when content changes](#7-create-a-deployment-hook-to-re-deploy-the-site-when-content-changes)
@@ -85,7 +85,7 @@ yarn start
 - Navigate to http://localhost:3000 to preview the Gatsby site
 - Navigate to http://localhost:3333 to modify your content
 
-### 4. Play around with the studio
+### 4. Play around with the Studio
 
 Try changing the site settings or adding new posts, click `Publish` and view your changes in real-time.
 

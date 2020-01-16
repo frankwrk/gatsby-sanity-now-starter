@@ -13,6 +13,7 @@ const plugins = [
   'gatsby-transformer-sharp',
   'gatsby-plugin-sharp',
   'gatsby-plugin-theme-ui',
+  'gatsby-plugin-offline',
 ]
 
 export default plugins
