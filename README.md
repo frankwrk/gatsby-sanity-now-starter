@@ -4,7 +4,7 @@
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <p align="center">
@@ -138,6 +138,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://kevinwolf.me"><img src="https://avatars2.githubusercontent.com/u/3157426?v=4" width="100px;" alt=""/><br /><sub><b>Kevin Wolf</b></sub></a><br /><a href="https://github.com/iamkevinwolf/gatsby-sanity-now-starter/commits?author=iamkevinwolf" title="Code">💻</a> <a href="#content-iamkevinwolf" title="Content">🖋</a> <a href="https://github.com/iamkevinwolf/gatsby-sanity-now-starter/commits?author=iamkevinwolf" title="Documentation">📖</a> <a href="#example-iamkevinwolf" title="Examples">💡</a> <a href="#eventOrganizing-iamkevinwolf" title="Event Organizing">📋</a> <a href="#ideas-iamkevinwolf" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-iamkevinwolf" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#tutorial-iamkevinwolf" title="Tutorials">✅</a> <a href="#talk-iamkevinwolf" title="Talks">📢</a> <a href="#video-iamkevinwolf" title="Videos">📹</a></td>
+    <td align="center"><a href="https://www.knutmelvaer.no/"><img src="https://avatars0.githubusercontent.com/u/1131579?v=4" width="100px;" alt=""/><br /><sub><b>Knut Melvær</b></sub></a><br /><a href="#ideas-kmelve" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
