@@ -2,11 +2,7 @@
   "version": 2,
   "name": "gatsby-sanity-now-starter",
   "build": {
-    "env": {
-      "SANITY_PROJECT_ID": "@gatsby-sanity-now-starter-sanity-project-id",
-      "SANITY_DATASET": "@gatsby-sanity-now-starter-sanity-dataset",
-      "SANITY_TOKEN": "@gatsby-sanity-now-starter-sanity-token"
-    }
+    "env": {}
   },
   "builds": [
     { "src": "studio/package.json", "use": "@now/static-build" },

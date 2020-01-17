@@ -3,8 +3,11 @@
 [![Tweet!](https://img.shields.io/twitter/url/https/github.com/iamkevinwolf/gatsby-sanity-now-starter.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20the%20Gatsby%20+%20Sanity%20+%20Now%20Starter.%20Create%20an%20ultrafast%20website%2C%20with%20a%20solid%20CMS%20and%20serve%20it%20through%20a%20rock-solid%20CDN%20via%20ZEIT%20Now.%20https%3A//github.com/iamkevinwolf/gatsby-sanity-now-starter)
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <p align="center">
@@ -16,8 +19,6 @@
 Create a static web application, consume data from one of the most powerful headless CMS, hit serverless endpoints and deploy it all to a rock-solid CDN. **In less than five minutes!**
 
 ▶️ [SEE IT IN ACTION](https://drive.google.com/open?id=12dkuETnnzawGr9BUbW_h6OnJBWY94az8)
-
-🎮 [Play with it](https://gatsby-sanity-now-starter.now.sh)
 
 ## Table of Contents
 
@@ -144,6 +145,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

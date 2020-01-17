@@ -1,11 +1,11 @@
 {
   "root": true,
   "api": {
-    "projectId": "5lsargrm",
-    "dataset": "production"
+    "projectId": "",
+    "dataset": ""
   },
   "project": {
-    "name": "Gatsby Sanity Now Starter",
+    "name": "",
     "basePath": "/studio"
   },
   "plugins": [
